@@ -3,6 +3,7 @@ body {
 	background: url(../img/cuatro.jpg);
 	background-repeat: no-repeat;
 	background-position: 0px   100px;
+	 overflow-x: hidden;
 }
 *{
 	margin:  0;
