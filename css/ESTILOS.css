@@ -48,7 +48,9 @@ div#seis{
 div#siete{
 	background-color: rgb(0, 0, 128);
 	}
-
+div#ocho{
+	background-color: rgb(128, 0, 0);
+	}
 img.icon{
 	display: block;
 	margin: 20px auto;
