@@ -1,0 +1,128 @@
+body {
+	background: url(../imagen/fondo2.jpg);
+	background-position: 0px   100px;
+	}
+*{
+	margin:  0;
+	padding: 0;
+	font-family: century Gothic;
+}
+
+
+nav{
+	width: 100%;
+}
+
+
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+	background: #1F618D;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+ li img {
+	width: 700px;
+
+}
+#conte{
+	width: 700px;
+	margin: 10px auto;
+	overflow: hidden;
+}
+#conte ul{
+	list-style: none;
+	width: 2800px;
+	display: flex;
+	animation: slide 12s infinite alternate;
+}
+@keyframes slide {
+ 0% {margin-left: 0px;}
+ 20% {margin-left: 0px;}
+
+ 25%{margin-left:-700px;}
+ 45%{margin-left: -700px;}
+
+ 50%{margin-left:-1400px;}
+ 70%{margin-left: -1400px;}
+
+ 75%{margin-left:-1800px;}
+ 100%{margin-left: -1800px;}
+
+ 100%{margin-left:-2200px;}
+ 130%{margin-left: -2200px;}
+
+ }
+nav{
+	width: 100%;
+}
+
+.cuadro1{
+	
+position: relative;
+top:20px ;
+bottom:0 ;
+right: 0;
+left: 130px;
+
+}
+
+.button{
+
+background: #7B241C;
+color: #fff;
+display :inline-block;
+font-size: 1.25em;
+margin: 20px;
+padding: 10px 0px;
+text-align: center;
+width: 200px;
+text-decoration: none;
+box-shadow: 0px  3px  0px  #373c3c;
+
+}
