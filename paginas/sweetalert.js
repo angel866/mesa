@@ -6,7 +6,7 @@ Swal.fire({
 	
 confirmButtonText:'CERRAR',
 with: '100%',
-imageUrl:'img/titulo5.jpg',
+imageUrl:'img/titulo4.jpg',
 Width:'700%',
 padding:0,	
 backdrop:'true',
